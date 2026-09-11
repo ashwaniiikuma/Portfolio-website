@@ -122,7 +122,7 @@ export const serviceData = [
     icon: assets.project_icon, 
     title: 'Fullstack Integration', 
     description: 'Connecting MongoDB/MySQL databases with frontend interfaces and deploying web apps smoothly.', 
-    link: '/fullstack' 
+    link: '/fullstack'
   },
 ];
 
