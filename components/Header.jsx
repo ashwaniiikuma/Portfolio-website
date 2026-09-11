@@ -77,14 +77,14 @@ const Header = () => {
           <Image src={assets.right_arrow_white || assets.arrow_icon} alt="" className="w-4 h-4 dark:invert-0 invert" />
         </Link>
 
-        <a 
-          href="/sample-resume.pdf" 
-          download 
-          className="px-8 py-3.5 border rounded-full border-gray-300 dark:border-white/50 hover:border-black dark:hover:border-white hover:bg-gray-50 dark:hover:bg-white/10 transition-all duration-300 flex items-center gap-2 text-sm font-medium text-gray-800 dark:text-white hover:scale-105"
-        >
-          <span>My resume</span>
-          <Image src={assets.download_icon} alt="" className="w-4 h-4 dark:invert" />
-        </a>
+        <a
+  href="/resume-ashwani.pdf"
+  download="resume-ashwani.pdf"
+  className="px-8 py-3.5 border rounded-full border-gray-300 dark:border-white/50 flex items-center gap-2"
+>
+  <span>My resume</span>
+  <Image src={assets.download_icon || assets.arrow_icon} alt="" className="w-4 h-4 dark:invert" />
+</a>
       </motion.div> 
       
     </section>
