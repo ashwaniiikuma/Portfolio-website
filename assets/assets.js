@@ -6,8 +6,11 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
+import nodejs from './Node.js.png';
+import express from './Express.png';
+import javascript from './JavaScript.png';
+import postman from './Postman (1).png';
+import react from './React.png'
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -45,12 +48,14 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
-    figma,
+    nodejs,
+    express,
     git,
+    javascript,
     mongodb,
     right_arrow_white,
     logo,
+    postman,
     logo_dark,
     mail_icon,
     mail_icon_dark,
@@ -67,6 +72,7 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
+    react,
     mobile_icon,
     ui_icon,
     graphics_icon,
@@ -133,5 +139,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.javascript, assets.nodejs, assets.express, assets.react, assets.mongodb,  assets.git,  assets.postman, 
 ];
