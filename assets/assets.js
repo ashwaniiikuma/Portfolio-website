@@ -34,8 +34,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import portfolio_img from './portfolio-img.jpeg';
 
-const profile_img = user_image;
 export const assets = {
     user_image,
     code_icon,
@@ -54,7 +54,7 @@ export const assets = {
     logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
+    portfolio_img,
     download_icon,
     hand_icon,
     header_bg_color,
@@ -116,7 +116,7 @@ export const serviceData = [
     icon: assets.code_icon, 
     title: 'Backend Development', 
     description: 'Building secure server-side logic, RESTful APIs, and database architectures using Node.js & Express.js.', 
-    link: '/backend' 
+    link: '/backend'
   },
   { 
     icon: assets.project_icon, 

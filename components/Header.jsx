@@ -19,8 +19,8 @@ const Header = () => {
         className="relative"
       >
         <Image 
-          src={assets.profile_img} 
-          alt="Ashwani profile" 
+          src={assets.portfolio_img} 
+          alt="Ashwani portfolio" 
           className="rounded-full w-32 h-32 object-cover border-2 border-gray-200 dark:border-gray-700 shadow-md hover:scale-105 transition-transform duration-300"
         />
       </motion.div>

@@ -40,7 +40,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6 }}
           className='w-55 md:w-64 sm:w-80 rounded-3xl max-w-none'
         >
-          <Image src={assets.user_image} alt='user' className='w-full rounded-3xl object-cover shadow-lg'/>
+          <Image src={assets.portfolio_img} alt='user' className='w-full rounded-3xl object-cover shadow-lg'/>
         </motion.div>
 
         {/* DETAILS SECTION */}
