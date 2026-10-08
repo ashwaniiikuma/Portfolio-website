@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { assets, serviceData } from '@/assets/assets';
+import { assets, skillsData } from '@/assets/assets';
 
 const Services = ({ isDarkMode }) => {
   return (
@@ -47,7 +47,7 @@ const Services = ({ isDarkMode }) => {
         transition={{ duration: 0.3, delay: 0.3 }}
         className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 my-10'
       >
-        {serviceData.map(({ icon, title, description, link }, index) => (
+        {skillsData.map(({ icon, title, description, link }, index) => (
           <motion.div 
             key={index}
             whileHover={{ scale: 1.03 }}

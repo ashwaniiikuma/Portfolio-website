@@ -82,7 +82,7 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-    export const workData = [
+    export const experienceData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
@@ -105,7 +105,7 @@ export const assets = {
     },
 ]
 
-export const serviceData = [
+export const skillsData = [
   { 
     icon: assets.web_icon, 
     title: 'Web Design & Frontend', 

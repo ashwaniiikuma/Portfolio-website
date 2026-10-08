@@ -65,13 +65,13 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               </Link>
             </li>
             <li>
-              <Link href="#services" className="text-gray-700 dark:text-white/80 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-medium transition-colors">
-                Services
+              <Link href="#skills" className="text-gray-700 dark:text-white/80 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-medium transition-colors">
+                Skills
               </Link>
             </li>
             <li>
-              <Link href="#work" className="text-gray-700 dark:text-white/80 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-medium transition-colors">
-                My Work
+              <Link href="#experience" className="text-gray-700 dark:text-white/80 hover:text-blue-600 dark:hover:text-blue-400 text-sm font-medium transition-colors">
+                Experience
               </Link>
             </li>
             <li>

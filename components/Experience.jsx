@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { workData, assets } from '@/assets/assets';
+import { experienceData, assets } from '@/assets/assets';
 
-const Work = () => {
+const Experience = () => {
   const [activeTab, setActiveTab] = useState('projects');
 
   // Software Engineer Work Highlights
@@ -38,7 +38,7 @@ const Work = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      id='work' 
+      id='experience' 
       className='w-full px-[12%] py-10 scroll-mt-20 dark:text-white'
     >
       {/* SECTION TITLE */}
@@ -101,7 +101,7 @@ const Work = () => {
           transition={{ duration: 0.4 }}
           className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 my-6 gap-5'
         >
-          {workData.map((project, index) => (        
+          {experienceData.map((project, index) => (        
             <motion.div   
               key={index} 
               whileHover={{ scale: 1.02 }}
@@ -184,4 +184,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Experience;
